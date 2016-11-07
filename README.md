@@ -1,0 +1,1 @@
+Aloizio Lima, desenvolvedor web, formado em contabilidade e com mais de 20 anos de experiência no desenvolvimento de sistemas contábeis, atualmente focado no desenvolvimento de web sites responsivos e de aplicativos web usando NodeJS, VueJS, MongoDB, entre outras tecnologias.
