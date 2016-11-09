@@ -208,8 +208,11 @@ section h2 {
         font-size: 110%;
         line-height: 2.2em;
     }
+    .responsivo {
+        font-size: 120%;
+    }
     .responsivo img {
-        width: 50%;
+        width: 80%;
     }
 }
 
@@ -226,6 +229,12 @@ section h2 {
     .saudacao p {
         font-size: 100%;
         line-height: 2em;
+    }
+    .responsivo {
+        font-size: 90%;
+    }
+    .responsivo img {
+        width: 70%;
     }
 }
 @media (max-width: 600px) {
@@ -280,7 +289,7 @@ section h2 {
     }
 
     .responsivo {
-        font-size: 80%;
+        font-size: 90%;
 
         display: block;
 /*        align-items: center;*/
