@@ -3,7 +3,7 @@ html,body {
     overflow-x: hidden;
     height: 100%;
     background-color: #FAFFFC;
-    font-family: "Open Sans";
+    font-family: "Play";
 }
 body {
     display: block;
@@ -33,8 +33,8 @@ header .container a {
     align-items: center;
     text-decoration: none;
     color: #FAFFFC; /* #9BCD9B; */
-    font-family: "Open Sans";
-    font-size: 85%;
+    font-family: "Play";
+    font-size: 100%;
     text-transform: uppercase;
 /*    font-weight: 700;*/
 
@@ -60,11 +60,13 @@ footer .container a {
     align-items: center;
     text-decoration: none;
     color: #FAFFFC;
-    font-family: "Open Sans";
+    font-family: "Play";
 }
 
 section {
-    padding: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
     line-height: 2em;
 }
 
@@ -99,9 +101,11 @@ section .container {
     text-indent: 2em;
     text-align: justify;
     padding-left: 2em;
-    font-size: 100%;
+    font-size: 130%;
     line-height: 2.5em;
     color: #FAFFFC;
+    font-family: "Play";
+/*    font-weight: 700;*/
 }
 
 section h2 {
@@ -116,14 +120,14 @@ section h2 {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 5em;
+    padding-top: 0em;
 }
 .trabalhos img {
 /*    border-radius: 5px;*/
-    padding-top: 2em;
+    padding-top: 1em;
 }
 .main {
-    padding: 2em;
+    padding: 1em;
 }
 
 .wrapper {
