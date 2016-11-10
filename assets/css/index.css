@@ -15,8 +15,6 @@ header {
     position: relative;
     background-color: #323231;
     height: 4em;
-    /*    border: 13px solid #464646;*/
-    /*    border-width: 0 0 5px;*/
 }
 header .container {
     display: flex;
@@ -36,8 +34,6 @@ header .container a {
     font-family: "Play";
     font-size: 100%;
     text-transform: uppercase;
-/*    font-weight: 700;*/
-
 }
 
 footer {
@@ -82,7 +78,6 @@ section .container {
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-between;
-/*    padding-top: 5em;*/
     background-color: #323231;
     padding: 1em;
     padding-left: 5em;
@@ -103,7 +98,6 @@ section .container {
     line-height: 2.5em;
     color: #FAFFFC;
     font-family: "Play";
-/*    font-weight: 700;*/
 }
 
 section h2 {
@@ -121,7 +115,6 @@ section h2 {
     padding-top: 0em;
 }
 .trabalhos img {
-/*    border-radius: 5px;*/
     padding-top: 1em;
 }
 .main {
@@ -139,7 +132,6 @@ section h2 {
 /*    height: 15em;*/
 /*    background: no-repeat center;*/
 /*    background-size: cover;*/
-/*    background-image: url(/assets/images/site-responsivo.png);*/
 /*    background-image: url(/assets/images/site-responsivo.png);*/
 /*    display: inline-block;*/
     display: flex;
@@ -259,22 +251,15 @@ section h2 {
 
     .responsivo {
         font-size: 90%;
-
         display: block;
-/*        align-items: center;*/
-/*        flex-wrap: wrap;*/
-/*        clear: both;*/
     }
     .responsivo img {
         width: 80%;
-/*        padding: 1em;*/
     }
     .responsivo .esquerda, .responsivo .direita {
         padding: 1em;
     }
-
 }
-
 
 /* SOMENTE ACIMA DE 1200 */
 @media not all and (max-width: 1200px) {
@@ -282,6 +267,8 @@ section h2 {
         padding-left: 20em;
         padding-right: 20em;
     }
+
+    /* PROVISÓRIO, APENAS ATÉ TER PELO MENOS TRÊS PORTFOLIOS E NÃO FICAR ESPAÇO MUITO GRANDE ENTRE OS DOIS */
     .primeiro-trabalho {
         padding-left: 20em;
     }
