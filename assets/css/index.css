@@ -3,7 +3,7 @@ html,body {
     overflow-x: hidden;
     height: 100%;
     background-color: #FAFFFC;
-    font-family: "Play";
+    font-family: "Play", sans-serif;
 }
 body {
     display: block;
@@ -31,7 +31,6 @@ header .container a {
     align-items: center;
     text-decoration: none;
     color: #FAFFFC; /* #9BCD9B; */
-    font-family: "Play";
     font-size: 100%;
     text-transform: uppercase;
 }
@@ -56,7 +55,6 @@ footer .container a {
     align-items: center;
     text-decoration: none;
     color: #FAFFFC;
-    font-family: "Play";
 }
 
 section {
@@ -97,7 +95,6 @@ section .container {
     font-size: 130%;
     line-height: 2.5em;
     color: #FAFFFC;
-    font-family: "Play";
 }
 
 section h2 {
@@ -138,7 +135,8 @@ section h2 {
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-between;
-    font-family: "Julius Sans One";
+    font-family: "Julius Sans One", fantasy;
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 180%;
     padding: 0em;
